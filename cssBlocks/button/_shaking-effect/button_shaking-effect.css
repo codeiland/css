@@ -1,0 +1,13 @@
+.button_shaking-effect:hover {
+animation: shaking 0.3s linear 1;
+}
+
+@keyframes shaking {
+    33%{
+        transform: rotate(10deg);
+    } 66%{
+        transform: rotate(-10deg);
+    } 100%{
+        transform: rotate(10deg);
+    }
+}

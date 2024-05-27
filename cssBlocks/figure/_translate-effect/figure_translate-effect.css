@@ -1,0 +1,15 @@
+.figure_translate-effect .figure__caption {
+transform: translateX(-100%);
+background-color: rgba(0,0,0,0.5);
+transition: all .3s;
+}
+
+
+.figure_translate-effect:hover .figure__caption {
+    transform: translateX(0);
+  }
+  
+  .figure_translate-effect:hover .figure__image {
+      transform: scale(1.5) rotate(-15deg);
+      transition: all 0.2s;
+  }

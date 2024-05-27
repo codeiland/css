@@ -1,0 +1,43 @@
+@import url(./cssBlocks/section-wrapper/section-wrapper.css);
+
+@import url(./cssBlocks/button/button.css);
+@import url(./cssBlocks/button/_blink-effect/button_blink-effect.css);
+@import url(./cssBlocks/button/_rotate-effect/button_rotate-effect.css);
+@import url(./cssBlocks/button/_rotateZ-effect/button_rotateZ-effect.css);
+@import url(./cssBlocks/button/_scale-text-effect/button_scale-text-effect.css);
+@import url(./cssBlocks/button/_translate-effect/button_translate-effect.css);
+@import url(./cssBlocks/button/_none-border/button_none-border.css);
+@import url(./cssBlocks/button/_tetris-effect/button_tetris-effect.css);
+@import url(./cssBlocks/button/_carusel-effect/button_carusel-effect.css);
+@import url(./cssBlocks/button/_perspective-effect/button_perspective-effect.css);
+@import url(./cssBlocks/button/_float-brdr-effect/button_float-brdr-effect.css);
+@import url(./cssBlocks/button/_shaking-effect/button_shaking-effect.css);
+
+@import url(./cssBlocks/figure/figure.css);
+@import url(./cssBlocks/figure/__image/figure__image.css);
+@import url(./cssBlocks/figure/__caption/figure__caption.css);
+@import url(./cssBlocks/figure/__title/figure__title.css);
+@import url(./cssBlocks/figure/__description/figure__description.css);
+@import url(./cssBlocks/figure/_opacity-effect/figure_opacity-effect.css);
+@import url(./cssBlocks/figure/_translate-effect/figure_translate-effect.css);
+@import url(./cssBlocks/figure/_slide-effect/figure_slide-effect.css);
+
+
+@import url(./cssBlocks/smoky-text/smoky-text.css);
+@import url(./cssBlocks/text-fill-effect/text-fill-effect.css);
+@import url(./cssBlocks/text-float-effect/text-float-effect.css);
+@import url(./cssBlocks/lightning-text/lightning-text.css);
+@import url(./cssBlocks/text-floating-background/text-floating-background.css);
+
+@import url(./cssBlocks/sea-animation/sea-animation.css);
+@import url(./cssBlocks/sea-animation/__boat-img/sea-animation__boat-img.css);
+@import url(./cssBlocks/rain-section/rain-section.css);
+@import url(./cssBlocks/rain-section/__rain-img/rain-section__rain-img.css);
+
+@import url(./cssBlocks/beating-heart/beating-heart.css);
+@import url(./cssBlocks/bouncing-balls/bouncing-balls.css);
+
+
+*{
+    list-style: none;
+}

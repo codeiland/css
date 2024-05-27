@@ -1,0 +1,17 @@
+.text-float-effect{
+    color: #262626;
+    font-size: 70px;
+    margin: 20px;
+    text-shadow: 0 1px #efefef,   0 2px #efefef,  0 3px #efefef, 0 4px #efefef,   0 15px 5px rgba(0,0,0,.3);
+    animation: float 1.5s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes float {
+    from{
+        transform: rotate(5deg);
+    }
+    to {
+        transform: rotate(-5deg);
+    }
+}

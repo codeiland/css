@@ -1,0 +1,17 @@
+.text-floating-background{
+    background-image: url(../../images/text-back.png);
+    background-size: contain;
+    font-size: 140px;
+    margin: 20px;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: backgroundFloat 20s linear infinite;
+}
+
+@keyframes backgroundFloat {
+    from{
+        background-position: 0 0;
+    } to {
+        background-position: 100% 100%;
+    }
+}

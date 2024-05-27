@@ -1,0 +1,37 @@
+.button_tetris-effect:hover {
+color: white; 
+}
+
+.button_tetris-effect span {
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #262626;
+    transform: scaleX(0);
+    transform-origin: top;
+    transition: all .3s;
+    z-index: -1;
+    
+    
+}
+
+.button_tetris-effect:hover span {
+    transform: scaleX(1);
+}
+
+.button_tetris-effect span:nth-child(2) {
+    top: 25%;
+    transition-delay: .15s;
+}
+
+.button_tetris-effect span:nth-child(3) {
+    top: 50%;
+    transition-delay: .30s;
+}
+
+.button_tetris-effect span:nth-child(4) {
+    top: 75%;
+    transition-delay: .45s;
+}

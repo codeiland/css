@@ -1,0 +1,22 @@
+.text-fill-effect{
+    font-size: 70px;
+    text-transform: uppercase;
+    position: relative;
+    color: #ccc;
+    margin: 20px;
+}
+
+.text-fill-effect:before{
+    content: "hover";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #262626;
+    width: 0%;
+    overflow: hidden;
+    transition: all .6s;
+}
+
+.text-fill-effect:hover:before{
+    width: 100%;
+}

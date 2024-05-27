@@ -1,0 +1,17 @@
+.button_rotate-effect:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    transform: rotate(-90deg);
+    transition: transform .5s;
+    transform-origin: bottom left;
+    z-index: -1;
+}
+
+.button_rotate-effect:hover:before {
+transform: rotate(0);
+}

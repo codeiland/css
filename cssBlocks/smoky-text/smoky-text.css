@@ -1,0 +1,51 @@
+.smoky-text {
+display: flex;
+margin: 20px;
+}
+
+.smoky-text li{
+  color: black;
+  font-size: 70px;
+  font-weight: bold;
+  transition: all 1s;
+  letter-spacing: 10px;
+
+}
+
+.smoky-text:hover li{
+    transform: translateY(-200px) rotate(100deg);
+    opacity: 0;
+    filter: blur(20px);
+}
+
+.smoky-text li:nth-child(1){
+transition-delay: 0;
+}
+
+.smoky-text li:nth-child(2){
+    transition-delay: .2s;
+}
+
+.smoky-text li:nth-child(3){
+    transition-delay: .4s;
+}
+
+.smoky-text li:nth-child(4){
+    transition-delay: .6s;
+}
+
+.smoky-text li:nth-child(5){
+    transition-delay: .8s;
+}
+
+.smoky-text li:nth-child(6){
+    transition-delay: 1s;
+}
+
+.smoky-text li:nth-child(7){
+    transition-delay: 1.2s;
+}
+
+.smoky-text li:nth-child(8){
+    transition-delay: 1.4s;
+}

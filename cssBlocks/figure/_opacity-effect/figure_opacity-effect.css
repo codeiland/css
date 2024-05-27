@@ -1,0 +1,13 @@
+.figure_opacity-effect .figure__caption {
+    opacity: 0;
+}
+
+.figure_opacity-effect:hover .figure__caption {
+    opacity: 1;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .figure_opacity-effect:hover .figure__image {
+      transform: scale(1.5) rotate(-15deg);
+      transition: all 0.2s;
+  }

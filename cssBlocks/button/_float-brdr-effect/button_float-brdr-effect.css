@@ -1,0 +1,29 @@
+.button_float-brdr-effect:before {
+content: "";
+height: 2px;
+position: absolute;
+top: 0;
+left: 0;
+background-color: #262626;
+width: 100%;
+transform: scaleX(0);
+transform-origin: left;
+transition: all .4s;
+}
+
+.button_float-brdr-effect:after {
+    content: "";
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #262626;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: all .4s;
+}
+
+.button_float-brdr-effect:hover:after, .button_float-brdr-effect:hover:before {
+    transform: scaleX(1);
+}

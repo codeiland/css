@@ -1,0 +1,20 @@
+.button_blink-effect:hover{
+background-color: tomato;
+}
+
+.button_blink-effect:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    filter: blur(10px);
+    width: 150%;
+    height: 30px;
+    transform: translateX(-100%) rotate(45deg);
+    transition: all .5s;
+}
+
+.button_blink-effect:hover:before {
+    transform: translateX(100%) rotate(45deg);
+}
