@@ -1,0 +1,43 @@
+.ring-animation {
+    background-color: #58ea00;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring-animation:before, .ring-animation:after {
+content: "";
+position: absolute;
+top: -20px;
+left: -20px;
+bottom: -20px;
+right: -20px;
+border: 1px solid #58ea00;
+border-radius: 50%;
+animation: pulse 1.5s linear infinite;
+transition: all .4s;
+}
+
+.ring-animation:after {
+    animation-delay: 0.5s;
+    }
+
+@keyframes pulse {
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+ 
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}

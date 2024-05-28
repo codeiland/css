@@ -1,0 +1,32 @@
+.cube-animation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: resize 1s linear infinite;
+}
+
+@keyframes resize {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    10% {
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        width: 150px;
+        height: 150px;
+    }
+
+    90%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+    }
+}

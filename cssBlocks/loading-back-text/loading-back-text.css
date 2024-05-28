@@ -1,0 +1,32 @@
+.loading-back-text {
+    font-size: 70px;
+    color: #484848;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.loading-back-text:before {
+    content: "loading...";
+    color: sandybrown;
+    border-right: 5px solid sandybrown;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    animation: slideBack 5s linear infinite;
+}
+
+@keyframes slideBack {
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0;
+    }
+}
+

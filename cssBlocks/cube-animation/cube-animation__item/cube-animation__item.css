@@ -1,0 +1,45 @@
+.cube-animation__item {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    animation: rotateCube 1s linear infinite;
+}
+
+.cube-animation__item:nth-of-type(1){
+    top: 0;
+    left: 0;
+    background-color: blue;
+}
+
+.cube-animation__item:nth-of-type(2){
+    top: 0;
+    right: 0;
+    background-color: red;
+}
+.cube-animation__item:nth-of-type(3){
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+}
+.cube-animation__item:nth-of-type(4){
+    bottom: 0;
+    right: 0;
+    background-color: green;
+}
+
+
+@keyframes rotateCube {
+    0%{
+        transform: rotate(0);
+    }
+    10% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+
+    100%{
+        transform: rotate(90deg);
+    }
+}

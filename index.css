@@ -2,25 +2,25 @@
 
 @import url(./cssBlocks/button/button.css);
 @import url(./cssBlocks/button/button_blink-effect/button_blink-effect.css);
-@import url(./cssBlocks/button/_rotate-effect/button_rotate-effect.css);
-@import url(./cssBlocks/button/_rotateZ-effect/button_rotateZ-effect.css);
-@import url(./cssBlocks/button/_scale-text-effect/button_scale-text-effect.css);
-@import url(./cssBlocks/button/_translate-effect/button_translate-effect.css);
-@import url(./cssBlocks/button/_none-border/button_none-border.css);
-@import url(./cssBlocks/button/_tetris-effect/button_tetris-effect.css);
-@import url(./cssBlocks/button/_carusel-effect/button_carusel-effect.css);
-@import url(./cssBlocks/button/_perspective-effect/button_perspective-effect.css);
-@import url(./cssBlocks/button/_float-brdr-effect/button_float-brdr-effect.css);
-@import url(./cssBlocks/button/_shaking-effect/button_shaking-effect.css);
+@import url(./cssBlocks/button/button_rotate-effect/button_rotate-effect.css);
+@import url(./cssBlocks/button/button_rotateZ-effect/button_rotateZ-effect.css);
+@import url(./cssBlocks/button/button_scale-text-effect/button_scale-text-effect.css);
+@import url(./cssBlocks/button/button_translate-effect/button_translate-effect.css);
+@import url(./cssBlocks/button/button_none-border/button_none-border.css);
+@import url(./cssBlocks/button/button_tetris-effect/button_tetris-effect.css);
+@import url(./cssBlocks/button/button_carusel-effect/button_carusel-effect.css);
+@import url(./cssBlocks/button/button_perspective-effect/button_perspective-effect.css);
+@import url(./cssBlocks/button/button_float-brdr-effect/button_float-brdr-effect.css);
+@import url(./cssBlocks/button/button_shaking-effect/button_shaking-effect.css);
 
 @import url(./cssBlocks/figure/figure.css);
-@import url(./cssBlocks/figure/__image/figure__image.css);
-@import url(./cssBlocks/figure/__caption/figure__caption.css);
-@import url(./cssBlocks/figure/__title/figure__title.css);
-@import url(./cssBlocks/figure/__description/figure__description.css);
-@import url(./cssBlocks/figure/_opacity-effect/figure_opacity-effect.css);
-@import url(./cssBlocks/figure/_translate-effect/figure_translate-effect.css);
-@import url(./cssBlocks/figure/_slide-effect/figure_slide-effect.css);
+@import url(./cssBlocks/figure/figure__image/figure__image.css);
+@import url(./cssBlocks/figure/figure__caption/figure__caption.css);
+@import url(./cssBlocks/figure/figure__title/figure__title.css);
+@import url(./cssBlocks/figure/figure__description/figure__description.css);
+@import url(./cssBlocks/figure/figure_opacity-effect/figure_opacity-effect.css);
+@import url(./cssBlocks/figure/figure_translate-effect/figure_translate-effect.css);
+@import url(./cssBlocks/figure/figure_slide-effect/figure_slide-effect.css);
 
 
 @import url(./cssBlocks/smoky-text/smoky-text.css);
@@ -28,16 +28,30 @@
 @import url(./cssBlocks/text-float-effect/text-float-effect.css);
 @import url(./cssBlocks/lightning-text/lightning-text.css);
 @import url(./cssBlocks/text-floating-background/text-floating-background.css);
+@import url(./cssBlocks/loading-text/loading-text.css);
+@import url(./cssBlocks/loading-back-text/loading-back-text.css);
 
 @import url(./cssBlocks/sea-animation/sea-animation.css);
-@import url(./cssBlocks/sea-animation/__boat-img/sea-animation__boat-img.css);
+@import url(./cssBlocks/sea-animation/sea-animation__boat-img/sea-animation__boat-img.css);
 @import url(./cssBlocks/rain-section/rain-section.css);
 @import url(./cssBlocks/rain-section/rain-section__rain-img/rain-section__rain-img.css);
 
 @import url(./cssBlocks/beating-heart/beating-heart.css);
 @import url(./cssBlocks/bouncing-balls/bouncing-balls.css);
+@import url(./cssBlocks/animated-icon/animated-icon.css);
+@import url(./cssBlocks/animated-icon/animated-icon__element/animated-icon__element.css);
+@import url(./cssBlocks/ring-animation/ring-animation.css);
+@import url(./cssBlocks/ring-animation/ring-animation__icon/ring-animation__icon.css);
+@import url(./cssBlocks/newton-animation/newton-animation.css);
+@import url(./cssBlocks/newton-animation/newton-animation__ball/newton-animation__ball.css);
+@import url(./cssBlocks/cube-animation/cube-animation.css);
+@import url(./cssBlocks/cube-animation/cube-animation__item/cube-animation__item.css);
 
 
 *{
     list-style: none;
+}
+
+body {
+    margin: 0;
 }
